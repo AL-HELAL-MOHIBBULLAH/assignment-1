@@ -40,4 +40,34 @@
   padding: 10px 13px;
 }
 
+/* Banner Section Styles Star From Here */
+
+#banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5rem;
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner-main-text{
+    color:#FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-right: 2rem;
+  
+}
+#banner-details-text{
+    margin-top: 0.8rem;
+    color:#FFFFFF ;
+}
+#banner-img{
+  width: 26rem;
+  height: 29rem;
+}
+
+/* Banner Section Styles End Here */
+
 /* Header Section Styles End Here */

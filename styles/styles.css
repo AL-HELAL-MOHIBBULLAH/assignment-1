@@ -68,6 +68,20 @@
   height: 29rem;
 }
 
+
 /* Banner Section Styles End Here */
+
+/* About Me Section Start From Here */
+#about-me-container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    color: #FFFFFF;
+}
+
+/* About Me Section End Here */
 
 /* Header Section Styles End Here */

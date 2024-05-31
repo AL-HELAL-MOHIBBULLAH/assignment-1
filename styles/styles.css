@@ -7,7 +7,7 @@
 
 #header-container{
     background-color: #1E1E1E;
-    height: 100vh;
+   
 
 }
 
@@ -85,3 +85,34 @@
 /* About Me Section End Here */
 
 /* Header Section Styles End Here */
+
+
+/* My Experience Section Start From Here */
+#experience-conatiner{
+    background-color: #FD6F00;
+    opacity: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 7rem;
+    color: #FFFFFF;
+ }
+
+ #experience-title{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+ }
+
+.experience-timeline{
+    display: flex;
+    gap: 5rem;
+    padding-bottom: 1.4rem;
+}
+
+.job-position{
+    padding-bottom: 1rem;
+}
+
+/* My Experience Section End Here */

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+/* Header Section Styles Start From Here */
+
+#header-container{
+    background-color: #1E1E1E;
+    height: 100vh;
+
+}
+
+#nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    padding-top: 4rem;
+}
+#nav-list{
+    display: flex;
+    gap: 2rem;
+    font-size: 21px;
+    list-style: none;
+    align-items: center;
+}
+
+#logo{
+    color: #FD6F00;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#download-cv{
+    background-color: #FD6F00;
+    border: none;
+    color: #FFFFFF;
+    font-size: 21px;
+  padding: 10px 13px;
+}
+
+/* Header Section Styles End Here */

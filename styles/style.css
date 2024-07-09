@@ -17,6 +17,18 @@
 .text-primary{
     color: #0D1321;
 }
+.btn-learn-more{
+    padding: 12px 20px;
+   
+    
+
+}
+.btn-learn-more>a{
+    text-decoration: none;
+    color: #0D1321;
+    opacity: 70%;
+   
+}
 /* Shared style end here */
 
 /* nav style start from here */
@@ -81,4 +93,39 @@
 }
 
 /* Hero section style end here */
+/* Why web development styles start from here */
+.why-web{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.why-web-container{
+    text-align: center;
+    margin-top: 154px;
+}
+.why-web-title{
+    font-weight: 800;
+    font-size: 32px;
+}
+.why-web-description{
+    opacity: 70%;
+    margin-top: 24px;
+}
 
+.why-web-container-1{
+    display: flex;
+    margin-top: 96px;
+    justify-content: center;
+    gap: 98px;
+}
+.why-web-title-1{
+    font-weight: 700;
+    font-size: 24px;
+    opacity: 70%;
+    margin-bottom: 16px;
+}
+.why-web-description-1{
+    opacity: 70%;
+    margin-bottom: 32px;
+}
+/* Why web development styles end here */

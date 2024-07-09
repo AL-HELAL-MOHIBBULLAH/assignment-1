@@ -46,3 +46,39 @@
 
 /* nav style end here */
 
+/* Hero Section style start from here */
+.hero{
+    margin-top: 50px;
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 45px;
+}
+.hero-title{
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+
+}
+.hero-description{
+    margin-bottom: 53px;
+}
+.btn-contact{
+    color: #FFFFFF;
+    background-color:#0D1321;
+    border-radius: 8px;
+    padding: 21px 24px;
+    font-size: 20px;
+    font-weight: 600px;
+    text-decoration: none;
+}
+
+/* Hero section style end here */
+

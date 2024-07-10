@@ -29,6 +29,17 @@
     opacity: 70%;
    
 }
+.title{
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+    margin-bottom: 24px;
+}
+.description{
+    color:#0D1321;
+    margin-bottom: 24px;
+    opacity: 70%;
+}
 /* Shared style end here */
 
 /* nav style start from here */
@@ -107,12 +118,8 @@
     text-align: center;
     margin-top: 154px;
 }
-.why-web-title{
-    font-weight: 800;
-    font-size: 32px;
-}
+
 .why-web-description{
-    opacity: 70%;
     margin-top: 24px;
 }
 
@@ -162,7 +169,34 @@
 /* My inspiration styles end here */
 
 
+/* My current target styles start from here */
+.my-current-target-container{
+    text-align: center;
+}
+.current-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    margin-top: 24px;
+    text-align: left;
 
+}
+
+.skill{
+    padding:40px;
+}
+.skill-title{
+    font-weight: 800;
+    font-size: 24px;
+    padding: 24px 0 8px 0;
+}
+
+.btn-skill{
+    font-weight: 700;
+    border: none;
+}
+/* My current target styles end here */
 
 
 
@@ -175,12 +209,15 @@
 }
 .fa-facebook{
     color:rgba(0, 106, 255, 1);
+    font-size: 24px;
 }
 .fa-github{
     color: rgba(22, 22, 20, 1);
+    font-size: 24px;
 }
 .fa-linkedin{
     color: rgba(36, 137, 190, 1);
+    font-size: 24px;
 }
 
 /* footer styles end here */

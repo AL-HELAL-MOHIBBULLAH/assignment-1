@@ -234,12 +234,55 @@
 }
 /* My Next target styles end here */
 
+/* support section styles start from here */
+.support-section{
+    background-image: url("/assets/handshake.jpg");
+    background-size: cover;
+    border-radius: 16px;
+   
+}
+.support-container{
+    text-align: center;
+    padding: 64px 48px;
 
+}
+.support-title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    
+}
+.support-description{
+    color: #FFFFFF;
+    opacity: 70%;
+    margin-bottom: 24px;
+}
+.support-input{
+    padding: 19px 215px 19px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.btn-submit{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+/* support section styles end here */
 /* footer styles start form here */
 .footer-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 32px;
+    margin-top: 112px;
 }
 .fa-facebook{
     color:rgba(0, 106, 255, 1);

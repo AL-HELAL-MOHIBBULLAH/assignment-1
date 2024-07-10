@@ -180,7 +180,7 @@
     gap: 64px;
     margin-top: 24px;
     text-align: left;
-
+    
 }
 
 .skill{
@@ -191,14 +191,48 @@
     font-size: 24px;
     padding: 24px 0 8px 0;
 }
-
+#skill-html{
+    background-color:rgba(255, 76, 30, 0.05);
+   
+}
+#skill-css{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+#skill-js{
+    background-color: rgba(255, 223, 0, 0.05);
+}
 .btn-skill{
     font-weight: 700;
     border: none;
 }
 /* My current target styles end here */
 
+/* My Next target styles start from here */
+.next-target-container{
+    text-align: center;
+    margin-top: 111px;
+}
+.next-target-title{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px 20px;
+    margin-bottom: 24px;
 
+}
+.next-skill-title{
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+/* My Next target styles end here */
 
 
 /* footer styles start form here */

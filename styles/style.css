@@ -55,6 +55,10 @@
 
 }
 
+.nav-btn>a{
+    text-decoration: none;
+}
+
 
 /* nav style end here */
 
@@ -94,7 +98,7 @@
 
 /* Hero section style end here */
 /* Why web development styles start from here */
-.why-web{
+.container{
     width: 1140px;
     margin-left: auto;
     margin-right: auto;
@@ -129,3 +133,54 @@
     margin-bottom: 32px;
 }
 /* Why web development styles end here */
+
+
+/* My inspiration styles start from here */
+
+.my-inspiration{
+    text-align: center;
+    margin-top: 170px;
+}
+.my-inspiration-title{
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.my-inspiration-description{
+    opacity: 70%;
+    margin-bottom: 48px;
+}
+.my-inspiration-video{
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.my-inspiration-video>iframe{
+    border-radius: 16px;
+
+}
+/* My inspiration styles end here */
+
+
+
+
+
+
+
+/* footer styles start form here */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+.fa-facebook{
+    color:rgba(0, 106, 255, 1);
+}
+.fa-github{
+    color: rgba(22, 22, 20, 1);
+}
+.fa-linkedin{
+    color: rgba(36, 137, 190, 1);
+}
+
+/* footer styles end here */

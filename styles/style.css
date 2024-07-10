@@ -236,7 +236,7 @@
 
 /* support section styles start from here */
 .support-section{
-    background-image: url("/assets/handshake.jpg");
+    background-image: url("../assets/hand.jpg");
     background-size: cover;
     border-radius: 16px;
    
